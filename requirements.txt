@@ -1,0 +1,37 @@
+# Core Libraries
+numpy
+soundfile
+nltk
+resampy==0.4.3
+librosa==0.10.0
+
+# Torch + CUDA 12.8
+--extra-index-url=https://download.pytorch.org/whl/cu128
+torch==2.7.0
+torchaudio==2.7.0
+
+# ASR (Automatic Speech Recognition)
+faster_whisper
+openai-whisper
+conformer==0.3.2
+silero-vad==5.1.2
+
+# TTS / Voice
+resemble-perth==1.0.1
+
+# Audio Processing
+ffmpeg
+auto-editor==27.1.1
+
+# Tokenization and Transformers
+s3tokenizer
+transformers==4.46.3
+diffusers==0.29.0
+
+# Configuration / Utility
+omegaconf==2.3.0
+
+# UI
+gradio
+spaces
+
